@@ -18,3 +18,10 @@ body{
     border-width: 20px;
     border-color: rgb(0, 0, 0);
 }
+aside {
+    border:solid;
+    
+    border-radius: 25px;
+
+
+}

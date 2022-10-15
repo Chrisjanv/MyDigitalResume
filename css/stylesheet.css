@@ -3,9 +3,10 @@ html{
   border-width: 20px;
   border-color: rgb(0, 0, 0);
 }
-header {
+.header {
   background-color: #6d6b81;
   text-align: center;
+  border: solid;
 }
 .menu {
   border:solid;    
@@ -13,7 +14,7 @@ header {
   width: 20%;
   background-color: #6d6b81;
 }
-body{
+.body{
     font-family: sans-serif;
     font-size:110%;
     background-color: #9f9db7;

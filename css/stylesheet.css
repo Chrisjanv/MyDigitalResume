@@ -1,28 +1,44 @@
 html{
   border: solid;
   border-width: 20px;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(5, 4, 4);
+  background-color: #E7D4C0;
 }
 .header {
-  background-color: #6d6b81;
+  background-color:#658EA9;
   text-align: center;
   border: solid;
+  border-color: rgb(5, 4, 4);
 }
 .menu {
-  border:solid;    
-  border-radius: 25px;
-  width: 20%;
-  background-color: #6d6b81;
+  border:solid;  
+  background-color:#658EA9;
+  border-color: rgb(5, 4, 4);
 }
 .body{
     font-family: sans-serif;
     font-size:110%;
-    background-color: #9f9db7;
 }
 .footer{
-    background-color: #6d6b81;
+    background-color:#658EA9;
     text-align: center;
     border: solid;
+    border-color: rgb(5, 4, 4);
+}
+.main{
 }
 
 
+.header2{
+  text-decoration-line: underline;
+}
+.menu{
+  text-indent: 10px;
+}
+.information{
+  margin-left: 10px;
+}
+#headshot{
+  border: solid ;
+  border-color: rgb(5, 4, 4);
+}

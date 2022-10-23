@@ -1,44 +1,42 @@
 html{
-  /*border: solid;
-  border-width: 20px;
-  border-color: rgb(5, 4, 4);*/
+  border: solid;
   background-color: #E7D4C0;
+  border-width: 0.5cm;
 }
 .header {
   background-color:#658EA9;
   text-align: center;
   border: solid;
-  border-color: rgb(5, 4, 4);
 }
 .menu {
-  border:solid;  
+  border: solid;  
   background-color:#658EA9;
-  border-color: rgb(5, 4, 4);
+  width: 17%;
+  margin-top: 0.5cm;
+  padding: 0.5rem;
 }
 .body{
     font-family: sans-serif;
     font-size:110%;
+    padding: 1rem;
 }
 .footer{
     background-color:#658EA9;
     text-align: center;
     border: solid;
-    border-color: rgb(5, 4, 4);
-}
-.main{
 }
 
 
-.header2{
+.heading2{
   text-decoration-line: underline;
-}
-.menu{
-  text-indent: 10px;
 }
 .information{
   margin-left: 10px;
 }
 #headshot{
-  border: solid ;
-  border-color: rgb(5, 4, 4);
+  border: solid;
+  width: 7.1cm;
+  height: 9.4cm;
+  border-radius: 20%;
+  margin-top: 4mm;
 }

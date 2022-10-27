@@ -15,6 +15,7 @@ html{
   margin-top: 0.5cm;
   padding: 0.5rem;
 }
+
 .body{
     font-family: sans-serif;
     font-size:110%;
@@ -24,8 +25,11 @@ html{
     background-color:#658EA9;
     text-align: center;
     border: solid;
+    margin-top: 0.5cm;
 }
-
+.main{
+  display: flex;
+}
 
 .heading2{
   text-decoration-line: underline;

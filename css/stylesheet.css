@@ -1,25 +1,39 @@
-html{
-  
+html{  
   background-color:;
   border-width: 0.1cm;
-  background-image: linear-gradient(225deg,#BEB7A4,#FFFFFC);
-  
+  background-image: linear-gradient(225deg,#BEB7A4,#FFFFFC);  
 }
 .header {
   text-align: center;
-  
+  margin-bottom: 1cm;  
 }
+.body{
+  font-family: Garamond;
+  font-size:120%;
+  padding: 1rem;
+  /*color:#454B1B;*/
+}
+.main{
+  display: flex;
+}
+.footer{
+  text-align: center;    
+  margin-top: 0.5cm;
+  /*border: solid;*/
+  /*border-color: #BEB7A4;*/
+}
+
 .menu {    
   border: solid;
   border-color: #BEB7A4;
   width: 17%;
-  /*margin-top: 0.5cm;*/
+  margin-top: 0.7cm;
   min-width: 220px;
   height: 50%;
   position: sticky;
   top: 0;
+  line-height: 150%;
 }
-
 #menu{
   text-align: center;
 }
@@ -32,25 +46,10 @@ html{
   padding-left: 0.8cm;
 }
   
-
-.body{
-    font-family: sans-serif;
-    font-size:110%;
-    /*padding: 1rem;*/
-    color:#454B1B;
-}
-.footer{
-    /*background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);*/
-    text-align: center;    
-    margin-top: 0.5cm;
-}
-.main{
-  display: flex;
-}
-
 h2{
   text-decoration-line: underline;
 }
+
 .maincontent{
   margin-left: 10px;
 }
@@ -58,18 +57,59 @@ h2{
   margin-left: 10px;
 }
 
-#headshot{  
-  /*width: 7cm;
-  height: 9.4cm;*/
+
+
+#headshot{
   border-radius:50%;
-  /*margin-top: 4mm*/;
   width: 28%;
 }
 #performance{
   border-radius:50%;
-  width: 28%;  
-}
+  width: 28%;
+  }
 #headerimages{
   display: flex;
   justify-content: space-evenly;
+}
+
+#Workexperience{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid;
+  border-color: #BEB7A4;
+  background-color: hsla(0, 0%, 75%, 0.767);
+  margin-top: 1cm;
+  padding-left: 1rem;
+  padding-right: 1rem; 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #006ebd;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
 }

@@ -12,7 +12,7 @@ html{
   font-family: Garamond;
   font-size:120%;
   padding: auto;
-  padding-right: 0.7cm;
+  padding-right: 0.3cm;
   /*color:#454B1B;*/
 }
 .main{
@@ -53,7 +53,8 @@ h2{
 }
 
 .maincontent{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
+  padding-left: 0.5cm;
 }
 .information{
   margin-left: 10px;
@@ -88,6 +89,7 @@ h2{
 /*#teachingexpindent{
   padding-left: 4cm;
 }*/
+
 
 .fa {
   padding: 20px;

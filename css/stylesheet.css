@@ -2,7 +2,7 @@ html{
   /*border: solid;
   border-color:#c7c2b6;
   border-width: 1rem;*/
-  background-image: linear-gradient(225deg,#bcaf8b,#FFFFFC);  
+  background-image: linear-gradient(225deg,#bcaf8b,#e8e8da);  
 }
 .header {
   text-align: center;
@@ -10,7 +10,7 @@ html{
 }
 .body{
   font-family: Garamond;
-  font-size:120%;
+  font-size:125%;
   padding: auto;
   /*padding-right: 0.3cm;*/
   /*color:#454B1B;*/

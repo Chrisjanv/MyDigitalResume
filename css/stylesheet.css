@@ -1,7 +1,7 @@
 html{  
-  border: solid;
-  border-color:#BEB7A4;
-  border-width: 0.1cm;
+  /*border: solid;
+  border-color:#c7c2b6;
+  border-width: 1rem;*/
   background-image: linear-gradient(225deg,#bcaf8b,#FFFFFC);  
 }
 .header {
@@ -19,8 +19,12 @@ html{
   display: flex;
 }
 .footer{
-  text-align: center;    
-  margin-top: 0.5cm;
+  text-align: center;
+  margin: 0;    
+  padding: 25px;
+  /*position: sticky;*/
+  bottom: 0;
+  /*background-color: #c0b9a5;*/
   /*border: solid;*/
   /*border-color: #BEB7A4;*/
 }
@@ -76,23 +80,27 @@ h2{
 }
 
 #Workexperience{
+  vertical-align: center;
   display: flex;
   justify-content: space-between;
-
   width: 88%;
-
   flex-wrap: wrap;
   border: solid;
   border-color: #BEB7A4;
   background-color: hsla(0, 0%, 75%, 0.767);
-  margin-top: 1cm;
+  margin-top: 0.5cm;
   padding-left: 1rem;
   padding-right: 1rem;
+
+}
+#container {
+  display: flex;
+  justify-content: center;
 }
 #footercontact{
   display:flex;
   justify-content: space-around;
-  margin: 2cm;
+  /*margin: 2cm;*/
 }
 /*#teachingexpindent{
   padding-left: 4cm;

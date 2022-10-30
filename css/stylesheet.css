@@ -5,28 +5,36 @@ html{
   background-image: linear-gradient(225deg,#bcaf8b,#e8e8da);  
 }
 .header {
-  text-align: center;
+  text-align: right;
   margin-bottom: 1cm;  
 }
 .body{
   font-family: Garamond;
   font-size:125%;
   padding: auto;
-  /*padding-right: 0.3cm;*/
-  /*color:#454B1B;*/
+  /*font-size: 1.05vw;
+  font-size: 1.05vh;*/
+
 }
 .main{
   display: flex;
 }
 .footer{
   text-align: center;
-  margin: 0;    
+  margin: 2%;    
   padding: 25px;
-  /*position: sticky;*/
-  bottom: 0;
-  /*background-color: #c0b9a5;*/
-  /*border: solid;*/
-  /*border-color: #BEB7A4;*/
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+.footer a:visited{
+  color:white
+}
+.footer a:focus{
+  color:white
+}
+.footer a{
+  color: white;
 }
 
 .menu {    
@@ -39,9 +47,13 @@ html{
   position: sticky;
   top: 0;
   line-height: 150%;
+  position: 1;
+  /*display: flex;
+  flex-direction: column;*/  
 }
 #menu{
   text-align: center;
+  
 }
 @media only screen and (max-width:600px){
   .menu{
@@ -51,33 +63,60 @@ html{
 #menubullets{
   padding-left: 0.8cm;
 }
+#menuimgs{
+  display: flex;
+  flex-direction: column;
+}
   
 h2{
   text-decoration-line: underline;
 }
+a{
+  color: rgb(61, 94, 61);
+}
+a:visited {
+  color:  rgb(61, 94, 61);
+}
+
 
 .maincontent{
-  padding: 1rem;
-  
+  padding: 1rem;  
 }
 .information{
-  /*margin-left: 10px;*/
 }
-
-
-
-#headshot{
-  border-radius:50%;
-  width: 28%;
+h1{
+  font-size: 300%;
+  /*font-size: 8vw;*/  
 }
+/*#motto{
+  font-size: 2vw;
+}*/
+
+/*#headshot{
+  border-radius:80%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2mm;
+}*/
 #performance{
   border-radius:50%;
-  width: 28%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
   }
 #headerimages{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
+  /*justify-content: space-evenly;*/
 }
+#kznpo{
+  width: 70%;
+}
+
 
 #Workexperience{
   vertical-align: center;
@@ -100,15 +139,7 @@ h2{
 #footercontact{
   display:flex;
   justify-content: space-around;
-  /*margin: 2cm;*/
 }
-/*#teachingexpindent{
-  padding-left: 4cm;
-}*/
-
-/*.experienceborder{
-  margin-right: 5cm;
-}*/
 
 .fa {
   padding: 20px;

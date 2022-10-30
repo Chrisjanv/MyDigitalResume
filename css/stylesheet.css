@@ -78,6 +78,18 @@ a:visited {
   color:  rgb(61, 94, 61);
 }
 
+#tocontent{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2vw;
+
+}
+@media only screen and (max-width:600px){
+  #tocontent{
+    display:none;    
+  }
+}
 
 .maincontent{
   padding: 1rem;  
@@ -86,20 +98,23 @@ a:visited {
 }
 h1{
   font-size: 300%;
+  font-size: 5rem;
   /*font-size: 8vw;*/  
 }
 /*#motto{
   font-size: 2vw;
 }*/
 
-/*#headshot{
-  border-radius:80%;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2mm;
-}*/
+#headshot{
+  /*border-radius:80%;*/
+  height: 25%;
+  width: 25%;
+  padding-right: 0.5mm;
+  /*display: block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*margin-top: 2mm;*/
+}
 #performance{
   border-radius:50%;
   width: 90%;
@@ -114,7 +129,7 @@ h1{
   /*justify-content: space-evenly;*/
 }
 #kznpo{
-  width: 70%;
+  width: 69vw;
 }
 
 

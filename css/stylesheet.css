@@ -2,7 +2,7 @@ html{
   border: solid;
   border-color:#BEB7A4;
   border-width: 0.1cm;
-  background-image: linear-gradient(225deg,#BEB7A4,#FFFFFC);  
+  background-image: linear-gradient(225deg,#bcaf8b,#FFFFFC);  
 }
 .header {
   text-align: center;
@@ -12,7 +12,7 @@ html{
   font-family: Garamond;
   font-size:120%;
   padding: auto;
-  padding-right: 0.3cm;
+  /*padding-right: 0.3cm;*/
   /*color:#454B1B;*/
 }
 .main{
@@ -29,7 +29,7 @@ html{
   border: solid;
   border-color: #BEB7A4;
   width: 17%;
-  margin-top: 0.7cm;
+  margin-top: 1.1cm;
   min-width: 220px;
   height: 50%;
   position: sticky;
@@ -53,11 +53,11 @@ h2{
 }
 
 .maincontent{
-  /*margin-left: 10px;*/
-  padding-left: 0.5cm;
+  padding: 1rem;
+  
 }
 .information{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 
 
@@ -77,19 +77,30 @@ h2{
 
 #Workexperience{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
+  width: 88%;
+
   flex-wrap: wrap;
   border: solid;
   border-color: #BEB7A4;
   background-color: hsla(0, 0%, 75%, 0.767);
   margin-top: 1cm;
   padding-left: 1rem;
-  padding-right: 1rem; 
+  padding-right: 1rem;
+}
+#footercontact{
+  display:flex;
+  justify-content: space-around;
+  margin: 2cm;
 }
 /*#teachingexpindent{
   padding-left: 4cm;
 }*/
 
+/*.experienceborder{
+  margin-right: 5cm;
+}*/
 
 .fa {
   padding: 20px;

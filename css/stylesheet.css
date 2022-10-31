@@ -101,10 +101,9 @@ h1{
   font-size: 5rem;
   /*font-size: 8vw;*/  
 }
-/*#motto{
-  font-size: 2vw;
-}*/
-
+#headertext{
+  padding-right: 1rem;
+}
 #headshot{
   /*border-radius:80%;*/
   height: 28%;

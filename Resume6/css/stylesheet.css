@@ -1,3 +1,60 @@
+html{
+    background-color: #F6EEE0;
+    border: solid black;
+    border-width: 1vw;
+    font-family: Garamond;
+    font-size:125%;
+}
+
+a{
+    color: rgb(61, 94, 61);
+}
+a:visited {
+    color:  rgb(61, 94, 61);
+}
+
+h2{
+    text-decoration-line: underline;
+}
+
+header{
+text-align: center;
+background-color: #A45C40;
+padding: 1rem;
+padding-bottom: 0.2rem;
+}
+#performanceImg{
+    border-radius: 50%;
+    width: 20%;
+    border: solid black;
+}
+
+
+.section{
+    display: flex;
+}
+aside{
+    background-color: #E4B7A0;
+    padding: 1rem;
+}
+.article{
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #A45C40;
+    padding: 1rem;
+}
+footer a:visited{
+    color:white
+}
+footer a:focus{
+    color:white
+  }
+footer a{
+    color: white;
+  }
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -10,8 +67,8 @@
 .fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-  .fa-instagram {
+}
+.fa-instagram {
     background: #006ebd;
     color: white;
   }

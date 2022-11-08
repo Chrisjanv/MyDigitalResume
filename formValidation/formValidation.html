@@ -14,7 +14,7 @@
 
 <body>
 
-    <form action="" method="get" class="formChallenge">
+    <form action="" method="" class="formChallenge">
         <h1>Registration Form</h1>
         <label for="userID">User ID:</label>
         <input type="text" id="userID" minlength="5" maxlength="12" required>
@@ -289,18 +289,21 @@
         <div>
             <input type="radio" id="male" name="sex" required>
             <label for="male">Male</label>
+
             <input type="radio" id="female" name="sex" required>
             <label for="female">Female</label>
+            
             <input type="radio" id="other" name="sex" required>
             <label for="other">Other</label>
         </div>
 
         <label>Language:</label>
         <div>
-            <input type="radio" id="english" name="language" required>
+            <input type="checkbox" id="english" name="language">
             <label for="male">English</label>
-            <input type="radio" id="non-english" name="language" required>
-            <label for="non-english">Non-English</label>
+
+            <input type="checkbox" id="non-english" name="language">
+            <label for="non-english">Afrikaans</label>
         </div>
 
         <label for="about">About:</label>

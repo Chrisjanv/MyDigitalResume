@@ -13,15 +13,15 @@
 
     <form action="" method="get" class="formChallenge">
         <label for="userID">User ID:</label>
-            <input type="text" id="userID" minlength="5" maxlength="12" required>
+        <input type="text" id="userID" minlength="5" maxlength="12" required>
         <label for="password">Password:</label>
-            <input type="password" id="password" minlength="7" maxlength="12" required>
+        <input type="password" id="password" minlength="7" maxlength="12" required>
         <label for="name">Name:</label>
-            <input type="text" id="name" required>
+        <input type="text" id="name" required>
         <label for="address">Address:</label>
-            <input type="text" id="address">
+        <input type="text" id="address">
         <label for="country">Country:</label>
-            <select type="country" id="country" required>
+        <select type="country" id="country" required>
             <option>select country</option>
             <option value="AF">Afghanistan</option>
             <option value="AX">Aland Islands</option>
@@ -275,27 +275,32 @@
             <option value="YE">Yemen</option>
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
-            </select>
+        </select>
         <label for="zipCode">ZIP Code:</label>
-            <input type="number" id="zipCode" min="0" required>
+        <input type="number" id="zipCode" min="0" required>
         <label for="email">Email:</label>
-            <input type="email" id="email" required>
+        <input type="email" id="email" required>
 
         <label>Sex:</label>
         <div>
             <input type="radio" id="male" name="sex" required>
-                <label for="male">Male</label>
+            <label for="male">Male</label>
             <input type="radio" id="female" name="sex" required>
-                <label for="female">Female</label>
+            <label for="female">Female</label>
         </div>
 
         <label>Language:</label>
         <div>
             <input type="radio" id="english" name="language" required>
-                <label for="male">English</label>
+            <label for="male">English</label>
             <input type="radio" id="non-english" name="language" required>
-                <label for="non-english">Non-English</label>
+            <label for="non-english">Non-English</label>
         </div>
+
+        <label for="about">About:</label>
+        <textarea id="about" rows="5">Enter text here...</textarea>
+
+        <input type="submit" value="Submit">
 
         <!--         <label for="sex">Sex:</label>
         <div>
@@ -303,14 +308,14 @@
             <input type="radio" id="sex" value="female" required>Female
         </div> -->
 
-<!--         <label for="language">Language:</label>
+        <!--         <label for="language">Language:</label>
         <div>
             <input type="checkbox" id="language" required>English
             <input type="checkbox" id="language" required>Non-English
         </div> -->
 
-        <label for="about">About:</label>
-        
+
+
 
     </form>
 

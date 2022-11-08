@@ -2,6 +2,8 @@ html{
     width: 100vw;
     height: 100vh;
     margin:0;
+    background-color: #2b2d30 ;    
+    font-family: 'Comfortaa',cursive;
 }
 body{
     display: flex;
@@ -13,4 +15,14 @@ form{
     width: 30vw;
     display: flex;
     flex-direction: column;
+    color: whitesmoke;
+}
+label{
+    padding-top: 0.5rem;
+}
+#submit{
+    margin-top: 0.5rem;
+}
+h1{
+    text-align: center;
 }

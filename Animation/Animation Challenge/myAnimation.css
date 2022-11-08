@@ -28,11 +28,18 @@ div {
     background: #3B5998;
     color: white;
 }
-#facebook{
+/* #facebook{
     animation-name: facebookIcon;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+} */
+a:hover{
+    animation-name: facebookIcon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
 @keyframes facebookIcon{
     0%{background:red ;}

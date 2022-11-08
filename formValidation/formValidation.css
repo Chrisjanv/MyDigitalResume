@@ -1,4 +1,16 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
 form{
+    width: 50vw;
     display: flex;
     flex-direction: column;
     /*justify-content: space-around;

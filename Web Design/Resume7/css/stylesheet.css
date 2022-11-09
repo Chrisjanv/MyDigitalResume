@@ -1,0 +1,90 @@
+html{
+    background-color: #F6EEE0;
+    border: solid black;
+    border-width: 1vw;
+    font-family: Garamond;
+    font-size:140%;
+}
+
+a{
+    color: rgb(61, 94, 61);
+    font-style: italic;
+}
+a:visited {
+    color:  rgb(61, 94, 61);
+}
+
+h2{
+    text-decoration-line: underline;
+}
+
+header{
+    text-align: center;
+    background-color: #A45C40;
+    padding: 1rem;
+    padding-bottom: 0.2rem;
+}
+#performanceImg{
+    border-radius: 50%;
+    width: 20%;
+    border: solid black;
+}
+
+
+.section{
+    display: flex;
+}
+aside{
+    background-color: #E4B7A0;
+    padding: 1rem;
+    padding-right: 3rem;
+}
+.article{
+    padding: 1rem;
+}
+.menuBullets{
+    padding-left: 1.5rem;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #A45C40;
+    padding: 1rem;
+}
+.socialIcons{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+footer a:visited{
+    color:white
+}
+footer a:focus{
+    color:white
+  }
+footer a{
+    color: white;
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #006ebd;
+    color: white;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}

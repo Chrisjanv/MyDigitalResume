@@ -24,15 +24,18 @@ header{
     padding: 1rem;
     padding-bottom: 0.2rem;
 }
-#performanceImg{
+/*#performanceImg{
     border-radius: 50%;
     width: 20%;
+    border: solid black;
+}*/
+#KZNPO{
+    border-radius: 50%;
+    width: 40%;
     border: solid black;
 }
-.KZNPOCrop{
-    border-radius: 50%;
-    width: 20%;
-    border: solid black;
+#KZNPOCrop{
+    width: 100%;
 }
 
 

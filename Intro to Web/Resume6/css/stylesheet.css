@@ -3,7 +3,13 @@ html{
     border: solid black;
     border-width: 1vw;
     font-family: Garamond;
-    font-size:140%;
+    font-size:130%;
+}
+@media only screen and (max-width:800px){
+    html{
+        font-size: small;
+    }
+    
 }
 
 a{
@@ -31,7 +37,7 @@ header{
 }
 
 
-.section{
+main{
     display: flex;
 }
 aside{

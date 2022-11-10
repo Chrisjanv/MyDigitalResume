@@ -3,7 +3,13 @@ html{
     border: solid black;
     border-width: 1vw;
     font-family: Garamond;
-    font-size:140%;
+    font-size:120%;
+}
+@media only screen and (max-width:800px){
+    html{
+        font-size: small;
+    }
+    
 }
 
 a{
@@ -58,8 +64,9 @@ aside{
 
 footer{
     text-align: center;
-    background-color: #A45C40;
+    /*background-color: #A45C40;*/
     padding: 1rem;
+    background: url("images/background.jpg");
 }
 .socialIcons{
     display: flex;

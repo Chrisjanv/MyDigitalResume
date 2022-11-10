@@ -61,12 +61,15 @@ aside{
     padding-left: 1.5rem;
 }
 
-
 footer{
     text-align: center;
     /*background-color: #A45C40;*/
     padding: 1rem;
-    background: url("images/background.jpg");
+    background: url(background.jpg);
+    background-repeat: no-repeat;  
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    background-position: center;
 }
 .socialIcons{
     display: flex;

@@ -1,0 +1,5 @@
+header,footer{
+    border: solid;
+    max-width: 98vw;
+    height: 100px;
+}

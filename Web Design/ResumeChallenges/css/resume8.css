@@ -1,6 +1,5 @@
 html{
     max-width: 98vw;
-    max-height: 98vh;
 }
 
 header{
@@ -28,10 +27,10 @@ width: 90vw;
 }
 @media only screen and (max-width:720px){
     main{
-        display: flex;
         flex-direction: column;
     }
     aside,article{
-        
+        width: 98vw;
+        height: 50vh;
     }
 }

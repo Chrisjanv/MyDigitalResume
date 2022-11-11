@@ -1,0 +1,37 @@
+html{
+    max-width: 98vw;
+    max-height: 98vh;
+}
+
+header{
+    border: solid red;
+    height: 5em;
+}
+footer{
+    border: solid red;
+    height: 5em;
+}
+main{
+    border: solid black;
+    min-height:80vh;
+    display:flex;
+}
+
+aside{
+border: solid blue;
+width: 10vw;
+
+}
+article{
+border: solid purple;
+width: 90vw;
+}
+@media only screen and (max-width:720px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    aside,article{
+        
+    }
+}

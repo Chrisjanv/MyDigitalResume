@@ -4,11 +4,11 @@ html{
 
 header{
     border: solid red;
-    height: 5em;
+    height: 10em;
 }
 footer{
     border: solid red;
-    height: 5em;
+    height: 10em;
 }
 main{
     border: solid black;
@@ -18,19 +18,20 @@ main{
 
 aside{
 border: solid blue;
-width: 10vw;
+width: 20vw;
 
 }
 article{
 border: solid purple;
-width: 90vw;
+width: 80vw;
 }
 @media only screen and (max-width:720px){
     main{
+        display: flexbox;
         flex-direction: column;
     }
     aside,article{
-        width: 98vw;
+        width: 99%;
         height: 50vh;
     }
 }

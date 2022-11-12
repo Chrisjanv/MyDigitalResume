@@ -5,6 +5,8 @@ html{
 header{
     border: solid red;
     height: 10em;
+    display: flex;
+    justify-content: space-around;
 }
 footer{
     border: solid red;
@@ -19,6 +21,11 @@ main{
 aside{
 border: solid blue;
 width: 20vw;
+position: sticky;
+top: 0;
+line-height: 150%;
+position: 1; 
+height: 4cm;
 
 }
 article{
@@ -38,5 +45,11 @@ width: 80vw;
         display: flex;
         justify-content: space-around;
         width: 99%;
+        height: auto;
+    }
+}
+@media only screen and (max-width:380px){
+    html{
+        font-size: small;
     }
 }

@@ -22,7 +22,7 @@ main{
 
 aside{
 border: solid blue;
-width: 20vw;
+width: 8em;
 position: sticky;
 top: 0;
 line-height: 150%;
@@ -32,9 +32,9 @@ height: 50vh;
 }
 article{
 border: solid purple;
-width: 80vw;
+width: 100%;
 
-height: 100cm;
+height: 50cm;
 }
 @media only screen and (max-width:720px){
     main{

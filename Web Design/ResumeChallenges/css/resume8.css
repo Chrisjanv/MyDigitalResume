@@ -23,7 +23,7 @@ main{
 
 aside{
 border: solid blue;
-width: 9em;
+width: 10em;
 position: sticky;
 top: 0;
 line-height: 150%;

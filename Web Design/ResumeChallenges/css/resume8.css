@@ -1,5 +1,5 @@
 html{
-    max-width: 98vw;
+    max-width: 100vw;
 }
 
 header{
@@ -11,6 +11,8 @@ header{
 footer{
     border: solid red;
     height: 10em;
+    display: flex;
+    justify-content: center;
 }
 main{
     border: solid black;
@@ -25,12 +27,14 @@ position: sticky;
 top: 0;
 line-height: 150%;
 position: 1; 
-height: 4cm;
+height: 50vh;
 
 }
 article{
 border: solid purple;
 width: 80vw;
+
+height: 100cm;
 }
 @media only screen and (max-width:720px){
     main{
@@ -40,6 +44,8 @@ width: 80vw;
     article{
         width: 99%;
         height: 50vh;
+
+        height: 100cm;
     }
     aside{
         display: flex;

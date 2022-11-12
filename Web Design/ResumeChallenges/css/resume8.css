@@ -30,8 +30,13 @@ width: 80vw;
         display: flexbox;
         flex-direction: column;
     }
-    aside,article{
+    article{
         width: 99%;
         height: 50vh;
+    }
+    aside{
+        display: flex;
+        justify-content: space-around;
+        width: 99%;
     }
 }

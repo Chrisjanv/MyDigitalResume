@@ -1,13 +1,8 @@
-var http=require("http"); 
-var server = http.createServer(function(request, response) {  
-    response.writeHead(200, {  
-        'Content-Type': 'text/plain'  
-    });  
-}); 
-var server = http.createServer(function(request, response) {  
-    response.writeHead(200, {  
-        'Content-Type': 'text/plain'  
-    });  
-});   
+;document.getElementById("demo").innerHTML = 5 + 6;
+document.getElementById("demo").style.color = "red";
 
-document.getElementById("demo").innerHTML=5+6;
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+document.getElementById("total").innerHTML = total

@@ -1,16 +1,7 @@
-html{
-    font-family: 'Comfortaa',cursive;
-}
-/*@media  screen and (max-width:720px){
-    body{
-        font-size: small;
-    }
-}*/
-
-body{
+.gridContainer{
     margin: 15px 0 0 0;
     display: grid;
-    background-color: #2196F3;
+    background-color: saddlebrown;
     grid-gap:10px;
     padding: 10px;
     grid-template-areas: 
@@ -19,24 +10,48 @@ body{
     "footer footer footer";
     grid-template-rows: 60px auto 60px;
     grid-template-columns:20% auto 20%;
-    height: 60vh;
+    font-family: 'Comfortaa',cursive;
 }
-header,nav,main,footer{
+.header,.nav,.main,.footer{
     background-color: bisque;
     font-size: 30px;
     text-align: center;
 }
-header{
+.header{
     grid-area: header;
 }
-nav{
+.nav{
     grid-area: nav;
+    display: flex;
+    flex-direction: column;
 }
-main{
+.main{
     grid-area: main;
 }
-footer{
+.footer{
     grid-area: footer;
+}
+@media  screen and (max-width:720px){
+.gridContainer{
+    margin: 15px 0 0 0;
+    display: grid;
+    background-color: saddlebrown;
+    grid-gap:10px;
+    padding: 10px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: auto;
+    grid-template-columns:auto;
+}
+.nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}  
 }
 
 

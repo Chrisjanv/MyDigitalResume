@@ -1,21 +1,15 @@
 html{
-    width: 98vw;
-    height: 98vh;
     font-family: 'Comfortaa',cursive;
 }
-body{
-    width: 100vw;
-}
+
 
 header{
     border: solid red;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
 }
 footer{
     border: solid red;
     height: 10vh;
+    margin: 0;
 }
 main{
     border: solid black;
@@ -24,11 +18,11 @@ main{
 
 aside{
 border: solid blue;
-/*position: sticky;
+position: sticky;
 top: 0;
 line-height: 150%;
 position: 1; 
-height: 50vh;*/
+height: 50vh;
 
 }
 article{

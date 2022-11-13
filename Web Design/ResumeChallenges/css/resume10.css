@@ -4,7 +4,6 @@ html{
 .gridContainer{
     margin: 15px 0 0 0;
     display: grid;
-    background-color: saddlebrown;
     grid-gap:10px;
     padding: 10px;
     grid-template-areas: 
@@ -14,11 +13,13 @@ html{
     grid-template-rows: 60px auto 60px;
     grid-template-columns:20% auto 20%;
     font-family: 'Comfortaa',cursive;
+    color: aliceblue;
+    background-color: #2b2d30 ;
 }
 .header,.nav,.main,.footer{
-    background-color: bisque;
     font-size: 30px;
     text-align: center;
+    border: solid aliceblue;
 }
 .header{
     grid-area: header;
@@ -38,7 +39,6 @@ html{
 .gridContainer{
     margin: 15px 0 0 0;
     display: grid;
-    background-color: saddlebrown;
     grid-gap:10px;
     padding: 10px;
     grid-template-areas: 
@@ -48,6 +48,8 @@ html{
     "footer footer footer";
     grid-template-rows: auto;
     grid-template-columns:auto;
+    color: aliceblue;
+    background-color: #2b2d30 ;
 }
 .nav{
     grid-area: nav;

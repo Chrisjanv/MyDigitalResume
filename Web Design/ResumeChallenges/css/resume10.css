@@ -1,6 +1,9 @@
 html{
     font-family: 'Comfortaa',cursive;
 }
-header{
+header,aside,article, footer{
     border: solid;
+}
+header,footer{
+    text-align: center;
 }

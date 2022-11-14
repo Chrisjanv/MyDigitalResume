@@ -80,6 +80,7 @@ footer a{
 .fa {
     padding: 20px;
     font-size: 30px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;

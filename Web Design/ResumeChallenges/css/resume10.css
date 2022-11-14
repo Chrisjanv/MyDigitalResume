@@ -1,5 +1,5 @@
 html{
-    /*background-color: #2b2d30 ;*/
+    background-color: #2b2d30 ;
     font-size: small;
 }
 @media  screen and (max-width:900px){
@@ -19,8 +19,8 @@ html{
     grid-template-rows: auto;
     grid-template-columns:auto;
     font-family: 'Comfortaa', cursive;
-    /* color: aliceblue;
-    background-color: #2b2d30 ; */
+     color: aliceblue;
+    background-color: #2b2d30 ; 
     
 }  
 .header,.main,.footer{
@@ -42,14 +42,18 @@ html{
 }
 .nav{
     grid-area: nav;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+.container{
+    text-align: left;
 }
 
 .footer{
     grid-area: footer;
 }
+
+
+
 
 
 

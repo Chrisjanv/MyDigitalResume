@@ -35,7 +35,7 @@ html{
 .footer{
     grid-area: footer;
 }
-@media  screen and (max-width:720px){
+@media  screen and (max-width:1000px){
 .gridContainer{
     margin: 15px 0 0 0;
     display: grid;

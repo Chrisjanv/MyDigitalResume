@@ -1,5 +1,5 @@
 html{
-    /*background-color: #2b2d30 ;*/
+    background-color: #2b2d30 ;
     width: 100vw;
     font-size: small;
 }
@@ -8,6 +8,7 @@ html{
         font-size: x-small;
     }
 }
+
 .gridContainer{
     margin: 15px 0 0 0;
     display: grid;
@@ -20,8 +21,8 @@ html{
     grid-template-rows: 60px auto 60px;
     grid-template-columns:20% auto 20%;
     font-family: 'Comfortaa', cursive;
-    /*color: aliceblue;
-    background-color: #2b2d30 ;*/
+    /* color: aliceblue;
+    background-color: #2b2d30 ; */
     
 }  
 .header,.main,.footer{

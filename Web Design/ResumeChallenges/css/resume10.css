@@ -8,6 +8,7 @@ html{
     }
 }
 
+
 .gridContainer{
     display: grid;
     grid-gap:10px;
@@ -20,8 +21,25 @@ html{
     grid-template-columns:auto;
     font-family: 'Comfortaa', cursive;
      color: aliceblue;
-    background-color: #2b2d30 ; 
+    background-color: #2b2d30 ;
     
+    margin: 1rem;
+}
+.main{
+    grid-area: main;
+}
+.nav{
+    grid-area: nav;
+    flex-direction: column;
+}
+
+.container{
+    text-align: left;
+}
+
+
+.footer{
+    grid-area: footer;
 }  
 .header,.main,.footer{
     text-align: center;
@@ -37,20 +55,7 @@ html{
 }
 
 
-.main{
-    grid-area: main;
-}
-.nav{
-    grid-area: nav;
-    flex-direction: column;
-}
-.container{
-    text-align: left;
-}
 
-.footer{
-    grid-area: footer;
-}
 
 
 

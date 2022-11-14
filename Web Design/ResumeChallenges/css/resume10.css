@@ -1,5 +1,6 @@
 html{
     background-color: #2b2d30 ;
+    width: 100vw;
 }
 .gridContainer{
     margin: 15px 0 0 0;
@@ -42,14 +43,15 @@ html{
     grid-gap:10px;
     padding: 10px;
     grid-template-areas: 
-    "header header header"
-    "nav nav nav"
-    "main main main"
-    "footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns:auto;
+    "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns:auto auto auto;
     color: aliceblue;
     background-color: #2b2d30 ;
+    width: 100vw;
 }
 .nav{
     grid-area: nav;
@@ -59,4 +61,13 @@ html{
 }  
 }
 
-
+#largeImg{
+    border-radius: 50%;
+    width: 20%;
+    border: solid black;
+}
+#performance{
+    border-radius: 50%;
+    width: 20%;
+    border: solid black;
+}

@@ -49,8 +49,12 @@ html{
 }
 
 #education{
-    color: black
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 
 
 .container{ /*form*/

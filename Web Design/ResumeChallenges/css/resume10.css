@@ -17,7 +17,7 @@ html{
     grid-gap:10px;
     grid-template-areas: 
     "header"
-    "nav"
+    "navbar"
     "main"
     "footer";
     grid-template-rows: auto;
@@ -34,9 +34,9 @@ html{
 .main{
     grid-area: main;
 }
-.nav{
-    grid-area: nav;
-    flex-direction: column;
+.navbar{
+    grid-area: navbar;
+    width: 100%;
 }
 .footer{
     grid-area: footer;

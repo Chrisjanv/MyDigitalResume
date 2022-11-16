@@ -10,6 +10,8 @@ html{
         font-size: x-small;
     }
 }
+
+/*grid */
 .gridContainer{
     display: grid;
     grid-gap:10px;
@@ -39,27 +41,30 @@ html{
 .footer{
     grid-area: footer;
 }  
-.header,.main,.footer{
+
+
+.header,.footer{
     text-align: center;
     border: solid aliceblue;
 }
 
-
-#performance{ /*header picture*/
+/*header picture*/
+#performance{ 
     border-radius: 50%;
     width: 35%;
     border: solid black;
 }
 
-#education{
+/*education cards*/
+#education{ 
     color: black;
     display: flex;
     justify-content: space-around;
 }
 
 
-
-.container{ /*form*/
+/*form styling*/
+.container{ 
     text-align: left;
 }
 

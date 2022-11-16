@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html{
     background-color: #2b2d30 ;
     font-size: small;
@@ -18,7 +21,7 @@ html{
     grid-template-rows: auto;
     grid-template-columns:auto;
     font-family: 'Comfortaa', cursive;
-     color: aliceblue;
+    color: aliceblue;
     background-color: #2b2d30 ;
     
     margin: 1rem;

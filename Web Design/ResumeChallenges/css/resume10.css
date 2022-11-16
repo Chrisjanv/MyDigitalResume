@@ -4,12 +4,13 @@
 html{
     background-color: #2b2d30 ;
     font-size: small;
+    width: 98vw;
 }
 @media  screen and (max-width:900px){
     html{
         font-size: x-small;
     }
-}
+} 
 
 /*grid */
 .body{
@@ -61,7 +62,8 @@ html{
     display: flex;
     justify-content: space-around;
 }
-@media  only screen and (max-width:500px){
+
+@media  only screen and (max-width:1000px){
     #education{
         display: flex; 
         flex-wrap: wrap;

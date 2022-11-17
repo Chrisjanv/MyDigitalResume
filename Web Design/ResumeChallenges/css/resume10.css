@@ -10,7 +10,7 @@ html {
 
 @media screen and (max-width:900px) {
     html {
-        font-size: x-small;
+        /*font-size: x-small;*/
     }
 }
 
@@ -79,11 +79,9 @@ html {
 }
 
 
-/*form styling*/
-.container {
-    text-align: left;
+#contactForm{
+    align-items: center;
 }
-
 
 
 

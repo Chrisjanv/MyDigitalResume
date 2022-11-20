@@ -19,8 +19,8 @@ html {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
-        "header"
         "navbar"
+        "header"
         "main"
         "footer";
     grid-template-rows: auto;

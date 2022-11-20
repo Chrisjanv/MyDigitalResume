@@ -107,6 +107,10 @@ html {
     }
 }
 
+.btn{
+    background-color: black !important;
+    border: none !important;
+}
 
 
 
@@ -122,46 +126,33 @@ html {
 
 
 
-.socialIcons {
+
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    /*text-align: center;*/
     display: flex;
     justify-content: space-around;
-    padding-left: 10vw;
-    padding-right: 10vw;
 }
 
-footer a:visited {
-    color: white
-}
-
-footer a:focus {
-    color: white
-}
-
-footer a {
-    color: white;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 25px;
-    width: auto;
-    text-align: center;
+.social-media-icons a {
+    display: inline-block;
     text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+    padding: 7px;
 }
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
+.social-media-icons a:nth-child(1) i {
+    color: #0f79f1;
 }
 
-.fa-instagram {
-    background: #006ebd;
-    color: white;
+.social-media-icons a:nth-child(2) i {
+    color: #4099FF;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.social-media-icons a:nth-child(3) i {
+    color: #b31217;
+}
+
+.social-media-icons a i:hover {
+    color: black;
 }

@@ -18,9 +18,8 @@ html {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
-        
-        "navbar"
         "header"
+        "navbar"
         "main"
         "footer";
     grid-template-rows: auto;
@@ -51,14 +50,14 @@ html {
 
 .header,
 .footer {
-    /*text-align: center;
+    text-align: center;
     /*border: solid rgb(0, 0, 0);*/
 }
 
 /*header picture*/
 #performance {
-    /*border-radius: 50%;
-    width: 35%;*/
+    border-radius: 50%;
+    width: 35%;
     border: solid black;
 }
 

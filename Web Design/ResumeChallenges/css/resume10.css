@@ -38,6 +38,11 @@ html {
 }
 #headerText{
     margin: 0 0 0 1cm;
+
+}
+.headerIcons{
+    justify-content: center;
+    margin-top: 20rem;
 }
 @media  only screen and (max-width: 800px) {
     
@@ -57,7 +62,7 @@ html {
     /*header picture*/
     #performance {
         border-radius: 50%;
-        width: 50%;
+        width: 30%;
         border: solid black;
     }
 
@@ -89,8 +94,10 @@ html {
 /*header picture*/
 #performance {
     /*border-radius: 50%;*/
-    width: 50%;
+    /*width: 35%;*/
     border: solid black;
+    max-width:70%;
+    max-height: fit-content;
 }
 /*@media screen and (max-width:{
     

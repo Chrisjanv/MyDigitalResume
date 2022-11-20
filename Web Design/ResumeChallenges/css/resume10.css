@@ -3,9 +3,9 @@
 }
 
 html {
-    font-size: medium;
+    font-size: small;
     background-color:aliceblue;
-    width: 100vw;
+    width: 100%;
 }
 
 @media screen and (max-width:800px) {

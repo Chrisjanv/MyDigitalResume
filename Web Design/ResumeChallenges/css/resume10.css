@@ -3,9 +3,8 @@
 }
 
 html {
-    background-color: #2b2d30;
     font-size: small;
-    width: 98vw;
+    background-color:aliceblue;
 }
 
 /*@media screen and (max-width:900px) {
@@ -19,17 +18,17 @@ html {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
-        "header"
+        
         "navbar"
+        "header"
         "main"
         "footer";
     grid-template-rows: auto;
     grid-template-columns: auto;
     font-family: 'Comfortaa', cursive;
-    color: aliceblue;
-    background-color: #2b2d30;
 
-    margin: 1rem;
+    background-color: aliceblue;
+    /*margin: 1rem;*/
 }
 
 .header {
@@ -52,20 +51,19 @@ html {
 
 .header,
 .footer {
-    text-align: center;
-    border: solid aliceblue;
+    /*text-align: center;
+    /*border: solid rgb(0, 0, 0);*/
 }
 
 /*header picture*/
 #performance {
-    border-radius: 50%;
-    width: 35%;
+    /*border-radius: 50%;
+    width: 35%;*/
     border: solid black;
 }
 
 /*education cards*/
 #education {
-    color: black;
     display: flex;
     justify-content: space-around;
 }
@@ -81,7 +79,7 @@ html {
 
 #contactForm{
     align-items: center;
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-right: 3rem;
 }
 @media only screen and (max-width:765px) {

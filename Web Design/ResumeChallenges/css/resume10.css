@@ -123,6 +123,11 @@ html {
     margin-right: 1rem;
 
 }
+.galleryButton{
+    color: black !important;
+    background-color: black !important;
+}
+
 
 
 #contactForm{

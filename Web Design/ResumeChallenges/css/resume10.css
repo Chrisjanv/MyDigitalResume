@@ -29,7 +29,6 @@ html {
 
     background-color: aliceblue;
     width: 100%;
-    /*margin: 1rem;*/
 }
 
 .header {
@@ -38,7 +37,9 @@ html {
 }
 
 #headerText {
-    margin: 0 0 0 1cm;
+    margin:2rem;
+    text-align: center;
+
 
 }
 
@@ -46,7 +47,6 @@ html {
     justify-content: center;
     margin-top: 50%;
 }
-
 @media only screen and (max-width: 1000px) {
 
     .header,
@@ -103,16 +103,10 @@ html {
 
 /*header picture*/
 #performance {
-    /*border-radius: 50%;*/
-    /*width: 35%;*/
     border: solid black;
     max-width: 50%;
     max-height: fit-content;
 }
-
-/*@media screen and (max-width:{
-    
-}*/
 
 /*education cards*/
 #education {

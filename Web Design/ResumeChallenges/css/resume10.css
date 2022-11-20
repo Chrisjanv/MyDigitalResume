@@ -36,6 +36,32 @@ html {
     grid-area: header;
     display: flex;
 }
+#headerText{
+    margin: 0 0 0 1cm;
+}
+@media  only screen and (max-width: 800px) {
+    
+.header,
+    .footer {
+        text-align: center;
+        margin: 1rem;
+        border: solid rgb(0, 0, 0);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .h1 {
+        margin-top: 1rem !important;
+    }
+
+    /*header picture*/
+    #performance {
+        border-radius: 50%;
+        width: 50%;
+        border: solid black;
+    }
+
+}
 
 .main {
     grid-area: main;

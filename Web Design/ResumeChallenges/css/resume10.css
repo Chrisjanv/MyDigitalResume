@@ -58,13 +58,11 @@ html {
 .footer {
     /*text-align: center;*/
     margin: 1rem;
-    /*border: solid rgb(0, 0, 0);*/
 }
 #headerText {
     margin: 2rem;
     margin-bottom: 0;
     text-align: center;
-    max-height: auto;
 }
 .p{
     margin-top: 3%;
@@ -104,8 +102,9 @@ html {
 /*header picture*/
 #performance {
     border: solid black;
-    max-width: 50%;
-    max-height: auto;
+    max-width: auto;
+    max-height: 70%;
+    border-radius: 50%;
 }
 
 /*education cards*/

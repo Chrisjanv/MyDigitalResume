@@ -113,6 +113,13 @@ html {
         width: 70% !important;
     }
 }
+.eduLink{
+    border: black !important;
+}
+.eduLink:hover{
+    background-color: black !important;
+
+}
 
 
 #gallery {

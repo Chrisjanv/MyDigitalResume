@@ -8,12 +8,6 @@ html {
     width: 100%;
 }
 
-/*@media screen and (max-width:500px) {
-    html {
-        font-size: x-small;
-    }
-}*/
-
 /*grid */
 .body {
     display: grid;
@@ -31,33 +25,20 @@ html {
     width: 100%;
 }
 
-.header {
-    grid-area: header;
-    display: flex;
-}
-
-
-.main {
-    grid-area: main;
-}
-
+/* NavBar */
 .navbar {
     grid-area: navbar;
     width: 100%;
 }
-#menu{
+#menu {
     padding-left: 1rem;
 }
 
-.footer {
-    grid-area: footer;
-}
-
-
-.header,
-.footer {
-    /*text-align: center;*/
-    margin: 1rem;
+/* Header Elements all */
+.header {
+    grid-area: header;
+    display: flex;
+    height: 88vh;
 }
 #headerText {
     margin: 2rem;
@@ -65,25 +46,18 @@ html {
     text-align: center;
     padding-top: 12%;
 }
-.headerHeading {
-font-size: 400% !important;
+.h1 {
+    font-size: 400% !important;
 }
-/*header picture*/
 #performance {
     border: solid black;
-    max-width: 40%;
     border-radius: 50%;
-    margin-left: 2%;
-    margin-top: 1%;
-
 }
 
 .headerIcons {
     justify-content: center;
 }
-
 @media only screen and (max-width: 1100px) {
-
     .header,
     .footer {
         text-align: center;
@@ -92,7 +66,8 @@ font-size: 400% !important;
         flex-wrap: wrap;
         justify-content: center;
     }
-    #headerText{
+
+    #headerText {
         padding-top: 0;
     }
 
@@ -101,14 +76,13 @@ font-size: 400% !important;
         margin-top: 4%;
     }
 
-    /*header picture*/
     #performance {
         border-radius: 50%;
         width: 60%;
         border: solid black;
-        height: auto;
-    }
-    .headerHeading {
+        height: auto;    }
+
+    .h1 {
         font-size: 280% !important;
     }
 }
@@ -116,12 +90,20 @@ font-size: 400% !important;
 
 
 
+
+
+
+
+
+
+.main {
+    grid-area: main;
+}
 /*education cards*/
 #education {
     display: flex;
     justify-content: space-around;
 }
-
 @media only screen and (max-width:1000px) {
     #education {
         display: flex;
@@ -129,11 +111,9 @@ font-size: 400% !important;
         justify-content: center;
     }
 }
-
 .card {
     margin: 1rem !important;
 }
-
 @media only screen and (max-width:624px) {
     .card {
         width: 70% !important;
@@ -144,32 +124,30 @@ font-size: 400% !important;
 #gallery {
     margin-left: 1rem;
     margin-right: 1rem;
-
 }
-
 .galleryButton {
     color: black !important;
     background-color: black !important;
 }
-
-
 
 #contactForm {
     align-items: center;
     margin-left: 5rem;
     margin-right: 3rem;
 }
-
 @media only screen and (max-width:765px) {
     #contactForm {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
 }
-
 .btn {
     background-color: black !important;
-    border: none !important;
+    border: solid black !important;
+}
+
+.footer {
+    grid-area: footer;
 }
 
 

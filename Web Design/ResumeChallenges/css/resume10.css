@@ -30,6 +30,7 @@ html {
     grid-area: navbar;
     width: 100%;
 }
+
 #menu {
     padding-left: 1rem;
 }
@@ -42,34 +43,41 @@ html {
     margin-left: 1%;
     margin-top: 0.5%;
 }
+
 #headerText {
     margin: 2rem;
     margin-bottom: 0;
     text-align: center;
     padding-top: 12%;
 }
+
 .h1 {
     font-size: 400% !important;
 }
+
 #performance {
     border: solid black;
     border-radius: 50%;
 }
-.briefDescription{
+
+.briefDescription {
     margin-top: 1rem;
     margin-bottom: 4rem;
 }
+
 .headerIcons {
     justify-content: center;
 }
+
 @media only screen and (max-width: 1100px) {
-    .header,
-    .footer {
+
+    .header {
         text-align: center;
         margin: 1rem;
         border: solid rgb(0, 0, 0);
         flex-wrap: wrap;
         justify-content: center;
+        height: auto;
     }
 
     #headerText {
@@ -85,10 +93,16 @@ html {
         border-radius: 50%;
         width: 60%;
         border: solid black;
-        height: auto;    }
+        height: auto;
+    }
 
     .h1 {
         font-size: 280% !important;
+    }
+
+    .briefDescription {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -96,11 +110,13 @@ html {
 .main {
     grid-area: main;
 }
+
 /*education cards*/
 #education {
     display: flex;
     justify-content: space-around;
 }
+
 @media only screen and (max-width:1000px) {
     #education {
         display: flex;
@@ -108,18 +124,22 @@ html {
         justify-content: center;
     }
 }
+
 .card {
     margin: 1rem !important;
 }
+
 @media only screen and (max-width:624px) {
     .card {
         width: 70% !important;
     }
 }
-.eduLink{
+
+.eduLink {
     border: black !important;
 }
-.eduLink:hover{
+
+.eduLink:hover {
     background-color: black !important;
 
 }
@@ -129,6 +149,7 @@ html {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 .galleryButton {
     color: black !important;
     background-color: black !important;
@@ -139,6 +160,7 @@ html {
     margin-left: 5rem;
     margin-right: 3rem;
 }
+
 @media only screen and (max-width:765px) {
     #contactForm {
         margin-left: 0.5rem;

@@ -51,11 +51,6 @@ html {
     padding-top: 12%;
     width: 100%;
 }
-
-.h1 {
-    font-size: 400% !important;
-}
-
 #performance {
     border: solid black;
     border-radius: 50%;
@@ -96,10 +91,6 @@ html {
         width: 60%;
         border: solid black;
         height: auto;
-    }
-
-    .h1 {
-        font-size: 280% !important;
     }
 
     .briefDescription {

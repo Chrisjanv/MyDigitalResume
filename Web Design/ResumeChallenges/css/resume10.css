@@ -65,6 +65,9 @@ html {
     text-align: center;
     padding-top: 12%;
 }
+.headerHeading {
+font-size: 400% !important;
+}
 /*header picture*/
 #performance {
     border: solid black;
@@ -104,6 +107,9 @@ html {
         width: 60%;
         border: solid black;
         height: auto;
+    }
+    .headerHeading {
+        font-size: 280% !important;
     }
 }
 

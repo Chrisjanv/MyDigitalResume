@@ -71,7 +71,6 @@ html {
     .header {
         text-align: center;
         margin: 1rem;
-        border: solid rgb(0, 0, 0);
         flex-wrap: wrap;
         justify-content: center;
         height: auto;

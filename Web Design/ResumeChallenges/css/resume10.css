@@ -30,9 +30,13 @@ html {
     grid-area: navbar;
     width: 100%;
 }
-#educationLink, #galleryLink, #contactLink{
-    padding-top:2%;
+
+#educationLink,
+#galleryLink,
+#contactLink {
+    padding-top: 2%;
 }
+
 #menu {
     padding-left: 1rem;
     font-size: medium;
@@ -54,6 +58,7 @@ html {
     padding-top: 12%;
     width: 100%;
 }
+
 #performance {
     border: solid black;
     border-radius: 50%;
@@ -139,7 +144,7 @@ html {
 
 }
 
-
+/* Instagram Gallery */
 #gallery {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -150,6 +155,7 @@ html {
     background-color: black !important;
 }
 
+/* Email Form */
 #contactForm {
     align-items: center;
     margin-left: 5rem;

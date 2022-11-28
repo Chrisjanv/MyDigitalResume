@@ -30,8 +30,8 @@ html {
     grid-area: navbar;
     width: 100%;
 }
-a.nav-link{
-    padding-bottom: 0;
+#educationLink, #galleryLink, #contactLink{
+    padding-top:2%;
 }
 #menu {
     padding-left: 1rem;

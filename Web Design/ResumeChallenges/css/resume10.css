@@ -166,19 +166,28 @@ h2{
     background-color: black;
 }
 #modalFull{
-    max-width: 80%;
+    max-width: 100%;
 }
 #modalContent{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin: 1rem;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width: 900px){
     #modalContent{
-    display: flex;
-    justify-content: space-around;
-}    
+        flex-wrap: wrap;
+    }    
 }
+@media only screen and (max-width: 600px) {
+    .experienceContent {
+        font-size: 50% !important;
+    }
+}
+.experienceContent{
+    margin: 1rem;
+}
+
 
 
 

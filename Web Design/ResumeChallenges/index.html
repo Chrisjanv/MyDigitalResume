@@ -110,23 +110,53 @@
         <!-- Experience Modal -->
         <!-- Button trigger modal -->
         <section id="experience">
-            <button id="experienceButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCenter">
-                Work Experience
-            </button>
+            <div id="musicExperience">
+                <button id="experienceButton" type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#modalCenter">
+                    Work Experience
+                </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="modalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document" id="modalContent">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="ModalLongTitle">Experience</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            
+                <!-- Modal -->
+                <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document" id="modalFull">
+                        <div class="modal-content" id="modalContent">
+                            <div class="modal-header">
+                                <!-- <h3 class="modal-title" id="ModalLongTitle">Experience</h3> -->
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body" id="modalContent">
+                                <div id="musicExperience" class="experienceContent">
+                                    <h2 class="h2">Performing Experience</h2>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Eastern Cape Philharmonic Orchestra</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Stellenbosch International Chamber Music Festival</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Kwa-Zulu Natal Philharmonic Orchestra</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">University of Stellenbosch Camarata</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Immling Festival Orchestra</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">The Mother City Orchestra</h4>
+                                </div>
+
+                                <div id="educationExperience" class="experienceContent">
+                                    <h2 class="h2">Teaching Experience</h2>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Grey High School</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Afghanistan National Institute of Music</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">The really Great Teacher Company</h4>
+                                    <img src="" alt="">
+                                    <h4 class="h4">Empangeni High School</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -137,7 +167,7 @@
         <!-- imbed individual instagram photos, youtube video. style borders. -->
         <section id="gallery">
             <div id="demo" class="carousel slide" data-ride="carousel">
-                
+
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>

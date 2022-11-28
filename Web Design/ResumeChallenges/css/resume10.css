@@ -7,6 +7,9 @@ html {
     background-color: aliceblue;
     width: 100%;
 }
+h2{
+    text-decoration: underline;
+}
 
 /*grid */
 .body {
@@ -162,9 +165,17 @@ html {
 #experienceButton:hover {
     background-color: black;
 }
-#modalContent{
+#modalFull{
     max-width: 80%;
 }
+#modalContent{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
 
 
 

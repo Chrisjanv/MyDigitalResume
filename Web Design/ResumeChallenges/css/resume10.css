@@ -162,6 +162,10 @@ html {
 #experienceButton:hover {
     background-color: black;
 }
+#modalContent{
+    max-width: 80%;
+}
+
 
 
 

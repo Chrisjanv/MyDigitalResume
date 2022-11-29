@@ -1,4 +1,4 @@
 # myDigitalResume
 CodeSpace Project
 
-Web Design/resumeChallenges/index.html  -  is my Resume 10 submission for my Digital Resume.
+Web Design/resumeChallenges/index.html  -  is my Resume 10 submission Web Design.

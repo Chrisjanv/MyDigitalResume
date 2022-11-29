@@ -164,6 +164,7 @@ h2{
 }
 #experienceButton:hover {
     background-color: black;
+    transform: scale(1.01);
 }
 #modalFull{
     max-width: 100%;

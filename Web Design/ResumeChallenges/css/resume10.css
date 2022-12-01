@@ -163,6 +163,7 @@ h2 {
 #experienceButton:hover {
   background-color: black;
   transform: scale(1.01);
+  transition: 200ms;
 }
 #modalFull {
   max-width: 100%;

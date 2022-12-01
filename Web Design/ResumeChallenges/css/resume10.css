@@ -258,4 +258,5 @@ h2 {
 .social-media-icons a i:hover {
   color: black;
   transform: scale(1.1);
+  transition:200ms;
 }

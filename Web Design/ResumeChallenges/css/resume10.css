@@ -7,6 +7,7 @@ html {
   background-color: aliceblue;
   width: 100%;
 }
+
 h2 {
   text-decoration: underline;
 }
@@ -35,10 +36,11 @@ h2 {
 }
 
 #educationLink,
+#experienceLink,
 #galleryLink,
 #contactLink,
 #experience {
-  padding-top: 2%;
+  padding-top: 0.5%;
 }
 
 #menu {
@@ -138,6 +140,7 @@ h2 {
     width: 70% !important;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .card {
     width: 100% !important;
@@ -147,6 +150,7 @@ h2 {
 .eduLink {
   border: black !important;
 }
+
 .eduLink:hover {
   background-color: black !important;
 }
@@ -156,34 +160,41 @@ h2 {
   text-align: center;
   margin-top: 1%;
 }
+
 #experienceButton {
   border: none;
   width: 85%;
 }
+
 #experienceButton:hover {
   background-color: black;
   transform: scale(1.01);
   transition: 200ms;
 }
+
 #modalFull {
   max-width: 100%;
 }
+
 #modalContent {
   display: flex;
   justify-content: space-around;
   align-content: center;
   margin: 1rem;
 }
+
 @media only screen and (max-width: 900px) {
   #modalContent {
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .experienceContent {
     font-size: 50% !important;
   }
 }
+
 .experienceContent {
   margin: 1rem;
 }
@@ -200,7 +211,7 @@ h2 {
   background-color: black !important;
 } */
 .carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
@@ -214,6 +225,7 @@ h2 {
   margin-right: 10%;
   margin-top: 4%;
 }
+
 .formLabel {
   margin-bottom: 1%;
   font-weight: 700;
@@ -259,5 +271,5 @@ h2 {
 .social-media-icons a i:hover {
   color: black;
   transform: scale(1.1);
-  transition:200ms;
+  transition: 200ms;
 }

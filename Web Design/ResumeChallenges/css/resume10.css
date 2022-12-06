@@ -42,6 +42,16 @@ h2 {
   padding-top: 0.5%;
 }
 
+@media only screen and (max-width:760px) {
+  #educationLink,
+  #galleryLink,
+  #contactLink,
+  #experience {
+    padding-left: 0.5cm !important;
+  }
+}
+
+
 #menu {
   padding-left: 1rem;
   font-size: medium;
